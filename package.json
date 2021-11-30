@@ -8,6 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p 80",
+    "deploy": "next build && next start -p 80",
     "export": "next export",
     "lint": "next lint",
     "lint-fix": "next lint --fix"

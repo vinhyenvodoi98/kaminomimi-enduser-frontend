@@ -15,6 +15,7 @@ RUN npm install
 
 # Bundle app source
 COPY . .
-
+ENV PORT 80
 EXPOSE 80
-CMD [ "node_modules/.bin/next", "build", "&&", "node_modules/.bin/next", "start", "-p", "80" ]
+
+CMD [ "npm", "run", "deploy" ]
