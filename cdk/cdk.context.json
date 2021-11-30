@@ -9,8 +9,8 @@
         "type": "Public",
         "subnets": [
           {
-            "subnetId": "subnet-0947438b7c827eac5",
-            "cidr": "10.0.0.0/28",
+            "subnetId": "subnet-0ee4fae679b610260",
+            "cidr": "10.0.0.224/28",
             "availabilityZone": "ap-northeast-1a",
             "routeTableId": "rtb-0941e1c5d2e4c5253"
           }
