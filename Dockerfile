@@ -17,4 +17,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 80
-CMD [ "npm", "run", "start" ]
+CMD [ "node_modules/.bin/next", "build", "&&", "node_modules/.bin/next", "start", "-p", "80" ]
