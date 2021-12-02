@@ -9,9 +9,15 @@
         "type": "Public",
         "subnets": [
           {
-            "subnetId": "subnet-0ee4fae679b610260",
-            "cidr": "10.0.0.224/28",
+            "subnetId": "subnet-0947438b7c827eac5",
+            "cidr": "10.0.0.0/28",
             "availabilityZone": "ap-northeast-1a",
+            "routeTableId": "rtb-0941e1c5d2e4c5253"
+          },
+          {
+            "subnetId": "subnet-01a7b89982b5857ba",
+            "cidr": "10.0.0.224/28",
+            "availabilityZone": "ap-northeast-1d",
             "routeTableId": "rtb-0941e1c5d2e4c5253"
           }
         ]
@@ -21,14 +27,14 @@
         "type": "Private",
         "subnets": [
           {
-            "subnetId": "subnet-0ee4fae679b610260",
-            "cidr": "10.0.0.224/28",
+            "subnetId": "subnet-0d3b2cc97b814d30b",
+            "cidr": "10.0.0.208/28",
             "availabilityZone": "ap-northeast-1a",
             "routeTableId": "rtb-0941e1c5d2e4c5253"
           },
           {
-            "subnetId": "subnet-0d2562f3ab06f40fe",
-            "cidr": "10.0.0.240/28",
+            "subnetId": "subnet-0f98a03cb295fbf5b",
+            "cidr": "10.0.0.192/28",
             "availabilityZone": "ap-northeast-1c",
             "routeTableId": "rtb-0941e1c5d2e4c5253"
           }
